@@ -1,0 +1,76 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+main, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+img{border:0;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, menu, nav, section {
+	display: block;
+}
+/**
+ * 1. 防止元素中「font-family」不能继承
+ * 2. 西文字体和 OS X 字体写在前面
+ * 3. Opera 12.1 之前版本不支持中文字体的英文名称
+ * 4. 微软雅黑「\5FAE\8F6F\96C5\9ED1」,中易宋体「\5B8B\4F53」
+ */
+body,
+button, /* 1 */
+input, /* 1 */
+select, /* 1 */
+textarea  /* 1 */
+{
+	font-family: 'helvetica neue',tahoma, arial, 'hiragino sans gb',stheiti,'wenquanyi micro hei', "微软雅黑", "Microsoft Yahei", sans-serif;
+}
+body {
+	line-height: 1;
+}
+
+/**
+ * 代码字体
+ */
+code,
+kbd,
+pre,
+samp {
+    font-family: monaco, menlo, consolas, 'courier new', courier, monospace, sans-serif;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* Don't kill focus outline for keyboard users: http://24ways.org/2009/dont-lose-your-focus */
+a:hover, a:active {
+    outline: none;
+}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }

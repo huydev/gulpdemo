@@ -1,0 +1,19 @@
+{
+  "name": "gulpdemo",
+  "version": "0.0.1",
+  "description": "by huydev",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.0.1",
+    "gulp-connect": "^2.2.0",
+    "gulp-if": "^1.2.5",
+    "gulp-imagemin": "^2.3.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-ruby-sass": "^2.0.3",
+    "gulp-uglify": "^1.4.1",
+    "gulp-useref": "^1.3.0"
+  },
+  "author": "huy",
+  "license": "ISC"
+}
